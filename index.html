@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+     <title> Decentralize Neo Wallet V1.0 </title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
+
+      <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+
+      <link rel = "stylesheet"
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+
+     <link rel = "stylesheet"
+         href = "./resources/css/main.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+      </script> 
+
+    </head>
+
+
+
+    <nav>
+        <div class="nav-wrapper #004d40 teal darken-4">
+             <label class="brand-logo">API Logger</label>
+        </div>
+    </nav>
+
+    <body>   
+        <div class ="loader"></div>
+        <div class ="t_label">
+                <h5>Transaction is loading. . .</h5>
+                <h5 id="Transaction"></h5>
+        </div>
+        <div id ="data" class ="container row" style="margin-top:55px;">
+ 
+               
+                <!-- <div>
+                    <h5 class="left-align"><i class = "material-icons prefix">card_membership</i> Wallet Information</h5>
+                    <label id='Wallet'></label>
+                </div>
+
+              <div class = "row">
+
+                 <div class = "input-field col s6">
+                    <i class = "material-icons prefix">account_circle</i>
+                    <input placeholder = "Account Address" id = "AddressFrom"
+                       type = "text" class = "active validate" required />
+                 </div>
+                 
+                 <div class = "input-field col s6">      
+                    <i class = "material-icons prefix">vpn_key</i>
+                    <label for = "password"></label>
+                    <input id = "PrivateKey" type = "password" placeholder = "Private Key"
+                       class = "validate" required />          
+                 </div>
+
+             </div>
+
+             <div>
+                    <h5 class="left-align"><i class = "material-icons prefix">money</i> Resources</h5>
+             </div>
+
+              <div class = "row">
+                    <div class = "input-field col s6">
+                       <i class = "material-icons prefix">attach_money</i>
+                       <input placeholder = "NEO" id = "Neo"
+                          type = "text" class = "active validate" required />
+            
+                    </div>
+                    
+                    <div class = "input-field col s6">      
+                       <i class = "material-icons prefix">local_gas_station</i>
+               
+                       <input id = "Gas" type = "text" placeholder = "Neo Gas"
+                          class = "validate" required />          
+                    </div>              
+              </div>
+
+                 <div>
+                        <h5 class="left-align"><i class = "material-icons prefix">tag_faces</i> To</h5>
+             
+                 </div>         
+                <div class = "row">
+                    <div class = "input-field col s6">
+                        <i class = "material-icons prefix">send</i>
+                        <input placeholder = "Send To" id = "AddressTo"
+                        type = "text" class = "active validate" required />
+                    </div>
+                </div>
+
+                <br>
+
+                <div class= "row" style="text-align:center">
+                        <button class = "btn waves-effect waves-light #01579b light-blue darken-4" type = "button" id="Submit1">Send
+                           <i class = "material-icons right">send</i></button>
+                        <button class = "btn waves-effect waves-light red disabled" type = "button" >Cancel
+                           <i class = "material-icons right">cancel</i></button>
+                </div> -->
+
+                
+      <table class="responsive-table">
+        <thead>
+          <tr>
+              <th>Machine</th>
+              <th>Data</th>
+              <th>Date</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+        </div>
+     </body>   
+
+
+     <script src="./node_modules/web3/dist/web3.min.js"></script>
+     <script src="./Resources/scripts/WebMainConfig.js"></script>
+
+     <script src="./bundle.js"></script>
+
+</html>
